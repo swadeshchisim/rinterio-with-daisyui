@@ -20,18 +20,18 @@
      <header>
         <div class="container mx-auto">
             <!-- Nav Area -->
-         <nav class="pt-10 pb-10">
+         <nav class="pt-4 md:pt-10 pb-4 md:pb-10">
             <div class="navbar">
                 <div class="navbar justify-between">
                   <!-- Logo Area -->
-                  <a class="flex items-center text-xl">
+                  <a class="flex items-center text-xl flex-1">
                     <div class="-rotate-45 w-8 h-8 bg-lime-300 rounded-full flex items-center justify-center mr-2">
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </div>
                     <h4>Rinterio</h4>
                   </a>
                   <!-- Dropdown -->
-                  <div class="dropdown">
+                  <div class="dropdown md:order-3 lg:order-none">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
@@ -44,7 +44,7 @@
                     </ul>
                   </div>
                   <!-- Menu Area -->
-                  <div class="hidden lg:flex">
+                  <div class="hidden lg:flex md:order-2 lg:order-none lg:flex-2 xl:flex-1">
                     <ul class="menu menu-horizontal px-1 text-zinc-500">
                       <li><a class="text-stone-600 font-extrabold" href="#">Home</a></li>
                       <li><a href="#">Service</a></li>
