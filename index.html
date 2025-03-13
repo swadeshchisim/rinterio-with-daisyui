@@ -206,13 +206,14 @@
 
          <!-- Portfolio Content -->
           <div>
-            <div class="flex justify-between items-center p-6 mt-8">
+            <!-- Row 1 -->
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-6 p-6 mt-8">
               <!-- Col 1 -->
               <div class="flex">
-                <div class="hero-content flex-col lg:flex-row border border-slate-200">
+                <div class="hero-content flex-col lg:flex-row border border-slate-200 rounded-2xl">
                   <img
                     src="./assets/img1.png"
-                    class="max-w-sm rounded-lg" />
+                    class="w-full md:size-fit rounded-lg" />
                   <div class="max-w-md">
                     <h1 class="text-2xl font-extrabold text-stone-700">Commercial</h1>
                     <p class="pt-4 pb-5 text-zinc-500">
@@ -227,9 +228,34 @@
               </div>
               <!-- Col 2 -->
                <div>
-                <img src="./assets/img2.png" alt="">
+                <img class="w-full" src="./assets/img2.png" alt="">
                </div>
             </div>
+            <!-- Row 2 -->
+             <div class="flex flex-col items-center lg:justify-between space-x-16">
+             <!-- col 1 -->
+              <img class="border border-gray-200 rounded-2xl p-6" src="./assets/img3.png" alt="">
+              <!-- Col 2 -->
+              <div class="flex">
+                <div class="hero-content flex-col lg:flex-row border border-slate-200 p-6">
+                  <img
+                      src="./assets/img1.png"
+                      class="max-w-sm rounded-lg" />
+                  <div class="max-w-md">
+                    <h1 class="text-2xl font-extrabold text-stone-700">Commercial</h1>
+                    <p class="pt-4 pb-5 text-zinc-500">
+                      The barn house captivates with its blend of rustic charm and modern. 
+                    </p>
+                    <button class="flex border-0 gap-2 text-xl font-extrabold">View Details <div class="-rotate-45 w-8 h-8 bg-lime-300 rounded-full flex items-center justify-center mr-2 font-thin">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Col 3 -->
+              <img class="border border-gray-200 rounded-2xl p-6" src="./assets/img5.png" alt="">
+             </div>
           </div>
        </section>
       <!-- Our Latest Portfolio Ends Here -->
